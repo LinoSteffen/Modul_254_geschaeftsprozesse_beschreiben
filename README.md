@@ -22,13 +22,13 @@ Ticket vom Kunden kommt rein.
 
 Kann das Ticket in unter 10 Minuten bearbeitet werden, muss dies gemacht werden.
 
-Ansonsten gibt man es dem 2nd Level weiter. Löst er(2nd, 3rd, Entwickler*innen) das, gibt er dem 1st Level Supporter*in das Ticket zurück und der schaut mit dem Kunden. Dies ist in jedem Fall (3rd,Entwickler*innen) so. Kann der 2nd das Ticket nicht lösen, bekommt es der 3rd Level Supporter*in. Kann dieser das Ticket nicht lösen, muss der 3rd Level Supporter*in Kontakt mit den Entwickler*innen aufnehmen.
+Ansonsten gibt man es dem 2nd Level weiter. Löst er(2nd, 3rd, Entwickler) das, gibt er dem 1st Level Supporter das Ticket zurück und der schaut mit dem Kunden. Dies ist in jedem Fall (3rd,Entwickler) so. Kann der 2nd das Ticket nicht lösen, bekommt es der 3rd Level Supporter. Kann dieser das Ticket nicht lösen, muss der 3rd Level Supporter Kontakt mit den Entwickler aufnehmen.
 
 ```mermaid
 flowchart LR
 id2 & id3 & id4 --> id6[Lösung gefunden/Angewendet]; 
 
- Ticket--> id1[1st Level Support] --> id7[Kann der 1st Level das Problem unter 10 min lösen] -->|Nein| id2[2nd Level Support] --> id3[3rd Level Support] --> id4[Entwickler*innen]
+ Ticket--> id1[1st Level Support] --> id7[Kann der 1st Level das Problem unter 10 min lösen] -->|Nein| id2[2nd Level Support] --> id3[3rd Level Support] --> id4[Entwickler]
  id5[1st Level Support] --> id10[Mit Kunde Kontakt aufnehmen];
 id6 --> id5;
 id7 -->|Ja| id11[Problem lösen] --> id10
