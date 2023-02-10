@@ -1,3 +1,7 @@
+# M254 - Geschäftsprozesse beschreiben
+
+Im ganzen Modul werden wir uns mit der GLB Genossenschaft auseinandersetzen.
+
 **Table of Contents**
 
 Block 1 - Aufbauorganisation
@@ -13,6 +17,8 @@ Block 3 - Grundlagen Geschäftsprozesse
 ![](https://slabstatic.com/prod/uploads/8q5jdj6q/posts/images/J8LnIVGeimdInLtVDUNVbaTX.png)
 
 # Block 2 - Ablauforganisation
+
+Bei diesem Block behandeln wir den Ticketprozess der GLB Informatik
 
 ## Karteikartenmethode
 
