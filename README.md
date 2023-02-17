@@ -66,3 +66,16 @@ classDef green fill:#008000, color:white;
 
 
 # Block 3 - Grundlagen Geschäftsprozesse
+
+## Kernprozess Zimmermann
+
+1. Planen
+1. Vorstellen
+1. Anpassen
+1. Kaufen
+1. Teile bauen
+1. Zu Baustelle liefern
+1. Zusammenbauen
+1. weiter z. B. zu Dachdecker
+
+![](https://slabstatic.com/prod/uploads/8q5jdj6q/posts/images/Mf1yrIuHgYbJp0SOJ0wm5Kz2.png)
