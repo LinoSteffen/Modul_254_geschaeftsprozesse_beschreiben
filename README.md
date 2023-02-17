@@ -10,6 +10,12 @@ Block 2 - Ablauforganisation
 
 Block 3 - Grundlagen Geschäftsprozesse
 
+Block 4 -
+
+block 5 -
+
+
+
 # Block 1 - Aufbauorganisation
 
 ## Organigramm GLB Gruppe:
@@ -78,4 +84,6 @@ classDef green fill:#008000, color:white;
 1. Zusammenbauen
 1. weiter z. B. zu Dachdecker
 
-![](https://slabstatic.com/prod/uploads/8q5jdj6q/posts/images/Mf1yrIuHgYbJp0SOJ0wm5Kz2.png)
+![](https://slabstatic.com/prod/uploads/8q5jdj6q/posts/images/elhOGTs17rpy2E_BggYQ3hpN.png)
+
+# Block 4
