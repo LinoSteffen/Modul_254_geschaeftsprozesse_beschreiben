@@ -1,6 +1,14 @@
 # M254 - Geschäftsprozesse beschreiben
 
-Im ganzen Modul werden wir uns mit der GLB Genossenschaft auseinandersetzen.
+Im ganzen Modul werden wir uns mit der **GLB**  **Genossenschaft** auseinandersetzen.
+
+**Autoren:** Lino Steffen &amp; Linus Moser
+
+**Klasse:** Inf2021c
+
+Version 4
+
+
 
 **Table of Contents**
 
@@ -18,7 +26,7 @@ block 5 -
 
 # Block 1 - Aufbauorganisation
 
-## Organigramm GLB Gruppe:
+## Organigramm GLB Gruppe KR1.1
 
 ![](https://slabstatic.com/prod/uploads/8q5jdj6q/posts/images/J8LnIVGeimdInLtVDUNVbaTX.png)
 
@@ -26,7 +34,7 @@ block 5 -
 
 Bei diesem Block behandeln wir den Ticketprozess der GLB Informatik
 
-## Karteikartenmethode
+## Karteikartenmethode KR.1.2
 
 Ticket vom Kunden kommt rein.
 
@@ -49,7 +57,7 @@ id7 -->|Ja| id11[Problem lösen] --> id10
 
 
 
-## Bildkartenmethode
+## Bildkartenmethode KR.1.2
 
 ```mermaid
 flowchart TD
@@ -73,7 +81,7 @@ classDef green fill:#008000, color:white;
 
 # Block 3 - Grundlagen Geschäftsprozesse
 
-## Kernprozess Zimmermann
+## Kernprozess Zimmermann KR1.3
 
 1. Planen
 1. Vorstellen
@@ -88,7 +96,7 @@ classDef green fill:#008000, color:white;
 
 # Block 4 - Prozessarten und ihre Abhängigkeit
 
-## Prozesslandkarte
+## Prozesslandkarte KR1.4
 
 ![](https://slabstatic.com/prod/uploads/8q5jdj6q/posts/images/nlM5s_xcUk0mptW3MmPd39iP.png)
 
@@ -130,4 +138,4 @@ flowchart LR
 
 ```
 
-## 1.5
+## KR1.5
