@@ -10,7 +10,7 @@ Block 2 - Ablauforganisation
 
 Block 3 - Grundlagen Geschäftsprozesse
 
-Block 4 -
+Block 4 - Prozessarten und ihre Abhängigkeit
 
 block 5 -
 
@@ -86,4 +86,48 @@ classDef green fill:#008000, color:white;
 
 ![](https://slabstatic.com/prod/uploads/8q5jdj6q/posts/images/elhOGTs17rpy2E_BggYQ3hpN.png)
 
-# Block 4
+# Block 4 - Prozessarten und ihre Abhängigkeit
+
+## Prozesslandkarte
+
+![](https://slabstatic.com/prod/uploads/8q5jdj6q/posts/images/nlM5s_xcUk0mptW3MmPd39iP.png)
+
+### Lieferobjekte der Prozesslandkarte
+
+```mermaid
+flowchart LR
+    id1>Führungsprozesse];
+    id1.1(Vertriebsstrategie)-- Auslösendes Ereignis --> t1.1.1(Erzielen von Gewinn)-- Weg zum Ergebnis --> t1.1.3(Strategie wird definiert)-- Output --> t1.1.2(Strategie festgelegt)-- Wer? --> Geschäftsleitung
+    id1.2(Produkte festlegen)-- Auslösendes Ereignis --> t1.2.1(Vertriebsstrategie wurde festgelegt)-- Weg zum Ergebnis --> t1.2.3(Es müssen Sinnvolle Produkte für den Vertrieb festgelegt werden)-- Output --> t1.2.2(Produkte wurden festgelegt)-- Wer? --> Geschäftsleitung
+    id1.3(Produktionsstrategie)-- Auslösendes Ereignis --> t1.3.1(Produkte wurden festgelegt)-- Weg zum Ergebnis --> t1.3.3(Produktionsstrategie muss sinnvoll ausgearbeitet werden)-- Output --> t1.3.2(Produketionsstrategie wurde festgelegt)-- Wer? --> Geschäftsleitung
+
+```
+
+```mermaid
+flowchart LR
+    id2>Kernprozesse];
+    id2.1(Planung)-- Auslösendes Ereignis --> t2.1.1(Auftrag von Kunden)-- Weg zum Ergebnis --> t2.1.2(planen)-- Output --> t2.1.3(fertiger Bauplan)-- Wer? --> Planer_in
+    id2.2(Maurer_in)-- Auslösendes Ereignis --> t2.2.1(Auftrag von Projektleiter_in)-- Weg zum Ergebnis --> t2.2.2(mauern)-- Output --> t2.2.3(fertiges Objekt)-- Wer? --> Maurer_in
+    id2.3(Innenbau)-- Auslösendes Ereignis --> t2.3.1(Auftrag von Projektleiter_in)-- Weg zum Ergebnis --> t2.3.2(bauen)-- Output --> t2.3.3(fertiges Objekt)-- Wer? --> Schreiner_in
+    id2.4(Sarnierung)-- Auslösendes Ereignis --> t2.4.1(Auftrag vom Kunden)-- Weg zum Ergebnis --> t2.4.2(sanieren)-- Output --> t2.4.3(fertig saniertes Objekt)-- Wer? --> t2.4.4(Projektleiter_in, alle Bauberufe etc.)
+    id2.5(Holzbau)-- Auslösendes Ereignis --> t2.5.1(Auftrag von Projektleiter_in)-- Weg zum Ergebnis --> t2.5.2(erstellen und aufbauen)-- Output --> t2.5.3(fertiges Objekt)-- Wer? --> Zimmermann
+    id2.6(Küchenbau)-- Auslösendes Ereignis --> t2.6.1(Auftrag von Projektleiter_in)-- Weg zum Ergebnis --> t2.6.2(planen, erstellen und aufbauen)-- Output --> t2.6.3(fertige Küche)-- Wer? --> Küchenbauer_in
+    id2.7(Maler_in)-- Auslösendes Ereignis --> t2.7.1(Auftrag von Projektleiter_in)-- Weg zum Ergebnis --> t2.7.2(malen)-- Output --> t2.7.3(fertiges Objekt)-- Wer? --> Maler_in
+  id2.8(Dachdecker_in)-- Auslösendes Ereignis --> t2.8.1(Auftrag von Projektleiter_in)-- Weg zum Ergebnis --> t2.8.2(Dach decken)-- Output --> t2.8.3(fertiges Dach)-- Wer? --> Dachdecker_in
+  id2.9(Qualitätskontrolle)-- Auslösendes Ereignis --> t2.9.1(Auftrag von Projektleiter_in)-- Weg zum Ergebnis --> t2.9.2(Projekt kontrollieren)-- Output --> t2.9.3(Fazit aus Objekt)-- Wer? --> t2.9.4(Bauherr_in und Projektleiter_in)
+
+
+```
+
+```mermaid
+flowchart LR
+    id3>Führungsprozesse];
+    id3.1(Informatik)-- Auslösendes Ereignis --> t3.1.1(Probleme mit der IT-Infrastruktur)-- Weg zum Ergebnis --> t3.1.3(Lösen des Problemes)-- Output --> t3.1.2(Problem wurde gelöst)-- Wer? --> Informatiker
+    id3.2(Dokumentationen/Anleitungen)-- Auslösendes Ereignis --> t3.2.1(Problem in der Informatik wurde gelöst)-- Weg zum Ergebnis --> t3.2.3(Anleitung/Dokumentation erstellen)-- Output --> t3.2.2(Anleitung wurde erstellt und kann verwendet werden)-- Wer? --> Informatiker
+    id3.3(HR)-- Auslösendes Ereignis --> t3.3.1(Personal wird gesucht)-- Weg zum Ergebnis --> t3.3.3(Stellen ausschreiben, Bewerbungsgespräch, Anstellung)-- Output --> t3.3.2(Personal wurde angestellt)-- Wer?--> HR
+    id3.4(Inkasso)-- Auslösendes Ereignis --> t3.4.1(Auftrag vom Kunden)-- Weg zum Ergebnis --> t3.4.3(Überprüfen der Bonität)-- Output --> t3.4.2(Kreditwürdig oder nicht)-- Wer? --> Finanzabteilung
+    id3.5(Finanzen)-- Auslösendes Ereignis --> t3.5.1(Finanzen müssen verwaltet werden)-- Weg zum Ergebnis --> t3.5.3(Finanzen werden mit Software wie Abacus verwaltet)-- Output --> t3.5.2(Finanzen wurden verwaltet)-- Wer? --> Finanzabteilung
+
+```
+
+## 1.5
