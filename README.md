@@ -1,3 +1,5 @@
+M254 - Geschäftsprozesse beschreiben
+
 # M254 - Geschäftsprozesse beschreiben
 
 Im ganzen Modul werden wir uns mit der **GLB**  **Genossenschaft** auseinandersetzen.
@@ -6,7 +8,7 @@ Im ganzen Modul werden wir uns mit der **GLB**  **Genossenschaft** auseinanderse
 
 **Klasse:** Inf2021c
 
-Version 4
+Version 5
 
 
 
@@ -20,7 +22,11 @@ Block 3 - Grundlagen Geschäftsprozesse
 
 Block 4 - Prozessarten und ihre Abhängigkeit
 
-block 5 -
+Block 5 - BPMN
+
+Block 6 -
+
+Block 7 -
 
 
 
@@ -138,4 +144,18 @@ flowchart LR
 
 ```
 
-## KR1.5
+## Prozesslandkarte mit Verbindungen KR1.5
+
+![](https://slabstatic.com/prod/uploads/8q5jdj6q/posts/images/DbbDRSraP83T78zgWcdVxXN3.png)
+
+# Block 5 - BPMN
+
+## BPMN Supportprozess - Ticket bearbeiten (KR2.1 und KR2.2)
+
+![](https://slabstatic.com/prod/uploads/8q5jdj6q/posts/images/cIkTb4T97sTdgrV30ar3QsqA.png)
+
+## BPMN Kernprozess - Zimmermann (KR2.3)
+
+![](https://slabstatic.com/prod/uploads/8q5jdj6q/posts/images/Za0ohAwaYQfjCLP9CKTtTxRq.png)
+
+## BPMN Führungsprozess - Produkte definieren (KR2.3)
