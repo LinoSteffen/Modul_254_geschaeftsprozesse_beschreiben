@@ -8,7 +8,7 @@ Im ganzen Modul werden wir uns mit der **GLB**  **Genossenschaft** auseinanderse
 
 **Klasse:** Inf2021c
 
-Version 5
+Version 5.0
 
 
 
@@ -159,3 +159,7 @@ flowchart LR
 ![](https://slabstatic.com/prod/uploads/8q5jdj6q/posts/images/Za0ohAwaYQfjCLP9CKTtTxRq.png)
 
 ## BPMN Führungsprozess - Produkte definieren (KR2.3)
+
+![](https://slabstatic.com/prod/uploads/8q5jdj6q/posts/images/3Cq1XvqhpkpHb9kRjr1GVR7N.png)
+
+# Block 6 - BPMN
