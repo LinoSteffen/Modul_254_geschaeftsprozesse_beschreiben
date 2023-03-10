@@ -8,7 +8,7 @@ Im ganzen Modul werden wir uns mit der **GLB**  **Genossenschaft** auseinanderse
 
 **Klasse:** Inf2021c
 
-Version 5.0
+Version 6.0
 
 
 
@@ -24,7 +24,7 @@ Block 4 - Prozessarten und ihre Abhängigkeit
 
 Block 5 - BPMN
 
-Block 6 -
+Block 6 - BPMN
 
 Block 7 -
 
@@ -154,12 +154,34 @@ flowchart LR
 
 ![](https://slabstatic.com/prod/uploads/8q5jdj6q/posts/images/cIkTb4T97sTdgrV30ar3QsqA.png)
 
-## BPMN Kernprozess - Zimmermann (KR2.3)
+## BPMN Kernprozess - Projekte unterstützen (KR2.3)
 
 ![](https://slabstatic.com/prod/uploads/8q5jdj6q/posts/images/Za0ohAwaYQfjCLP9CKTtTxRq.png)
 
+→ Eskalationsprozess bei Block 6
+
 ## BPMN Führungsprozess - Produkte definieren (KR2.3)
 
-![](https://slabstatic.com/prod/uploads/8q5jdj6q/posts/images/3Cq1XvqhpkpHb9kRjr1GVR7N.png)
+![](https://slabstatic.com/prod/uploads/8q5jdj6q/posts/images/qO5jFNRav8RMmioMtEUy0Czy.png)
 
 # Block 6 - BPMN
+
+## BPMN Eskalationsprozess von Projekte unterstützen (KR2.4)
+
+![](https://slabstatic.com/prod/uploads/8q5jdj6q/posts/images/1c7qU7SyXyQc0KU_SPFjZtMA.png)
+
+Nach anderem Lieferanten suchen, Subprozess:
+
+![](https://slabstatic.com/prod/uploads/8q5jdj6q/posts/images/mcGdcOgoG80TlEA7p4-JWuN5.png)
+
+## BPMN Dokumentationen erstellen (KR2.4)
+
+![](https://slabstatic.com/prod/uploads/8q5jdj6q/posts/images/DmTBJJZa_N4i8Dtjgd8ZV58u.png)
+
+## BPMN Anleitung erstellen (KR2.4)
+
+![](https://slabstatic.com/prod/uploads/8q5jdj6q/posts/images/EnYtuGRqGwL4WQfRzwPiQjtK.png)
+
+## BPMN Blindbewerbung erhalten (KR2.4)
+
+![](https://slabstatic.com/prod/uploads/8q5jdj6q/posts/images/ogY2yB3QSBaftAUrCJrZ2vLT.png)
